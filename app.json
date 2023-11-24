@@ -3,7 +3,6 @@
     "name": "moviestart",
     "slug": "moviestart",
     "version": "1.0.0",
-
     "scheme": "moviestart",
     "web": {
       "bundler": "metro",
@@ -15,7 +14,6 @@
       "typedRoutes": true,
       "tsconfigPaths": true
     },
-
     "orientation": "portrait",
     "icon": "./assets/icon.png",
     "userInterfaceStyle": "light",
@@ -26,13 +24,15 @@
     },
     "assetBundlePatterns": ["**/*"],
     "ios": {
-      "supportsTablet": true
+      "supportsTablet": true,
+      "bundleIdentifier": "com.supersimon.moviestart"
     },
     "android": {
       "adaptiveIcon": {
         "foregroundImage": "./assets/adaptive-icon.png",
         "backgroundColor": "#ffffff"
-      }
+      },
+      "package": "com.supersimon.moviestart"
     }
   }
 }
