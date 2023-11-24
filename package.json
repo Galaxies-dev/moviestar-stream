@@ -16,6 +16,7 @@
     "@tamagui/react-native-media-driver": "1.74.8",
     "@tamagui/shorthands": "1.74.8",
     "@tamagui/themes": "1.74.8",
+    "@tanstack/react-query": "^5.8.6",
     "expo": "~49.0.11",
     "expo-font": "~11.4.0",
     "expo-linking": "~5.0.2",
@@ -36,6 +37,7 @@
   "devDependencies": {
     "@babel/core": "^7.20.0",
     "@tamagui/babel-plugin": "1.74.8",
+    "@tanstack/eslint-plugin-query": "^5.8.4",
     "@types/react": "~18.2.14",
     "@typescript-eslint/eslint-plugin": "^6.7.2",
     "@typescript-eslint/parser": "^6.7.2",
